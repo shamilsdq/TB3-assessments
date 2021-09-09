@@ -192,6 +192,34 @@ header ul li a {
 
 
 
+footer {
+    background: #F4F7FA;
+    padding: 30px 0;
+}
+
+footer aside {
+    flex: 1 1 320px;
+}
+
+footer aside h4 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+footer aside p {
+    max-width: 500px;
+}
+
+footer aside:nth-child(2) {
+    flex: 0 1 250px;
+    text-align: right;
+}
+
+
+
+
+
+
 
 
 @media screen and (max-width: 640px) {
@@ -250,5 +278,20 @@ header ul li a {
 
     #features article {
         margin-bottom: 20px;
+    }
+
+
+
+    footer aside {
+        margin: 10px 0;
+    }
+
+    footer aside {
+        flex: 1 1 20px;
+    }
+
+    footer aside:nth-child(2) {
+        flex: 1 1 0px;
+        text-align: left;
     }
 }
