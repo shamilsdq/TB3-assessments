@@ -124,7 +124,7 @@ header ul li a {
 #contact input {
     width: 350px;
     line-height: 1;
-    padding: 7px 10px;
+    padding: 7px 15px;
     border: 1px solid #DDDDDD;
     border-radius: 5px;
 }
@@ -167,5 +167,16 @@ header ul li a {
 
     #intro-image {
         margin-top: 50px;
+    }
+
+
+
+    #contact input {
+        width: 100%;
+    }
+
+    #contact a {
+        margin-left: 0;
+        margin-top: 10px;
     }
 }
