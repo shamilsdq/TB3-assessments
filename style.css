@@ -213,4 +213,7 @@ header ul li a {
 
 
 
+    #features .wrapper > p {
+        width: 100%;
+    }
 }
