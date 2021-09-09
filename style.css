@@ -32,7 +32,7 @@ a {
 
 .wrapper {
     display: flex;
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -65,7 +65,7 @@ header ul {
 
 header ul li a {
     display: block;
-    padding: 10px 20px;
+    padding: 10px 25px;
 }
 
 #nav-left {
@@ -94,11 +94,11 @@ header ul li a {
 #intro-text div {
     width: 75%;
     line-height: 1.5;
-    margin: 15px 0 20px;
+    margin: 15px 0 25px;
 }
 
 #intro-text a {
-    padding: 10px 20px;
+    padding: 10px 25px;
 }
 
 
@@ -113,12 +113,59 @@ header ul li a {
 
 
 #contact {
+    padding: 50px 0;
     background: #F4F7FA;
 }
 
+#contact > .wrapper {
+    justify-content: center;
+}
 
-@media screen and (min-width: 641px) {
+#contact input {
+    width: 350px;
+    line-height: 1;
+    padding: 7px 10px;
+    border: 1px solid #DDDDDD;
+    border-radius: 5px;
+}
+
+#contact a {
+    padding: 8px 20px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+
+@media screen and (max-width: 640px) {
     .wrapper {
-        width: 80%;
+        width: 90%;
+        flex-direction: column;
+    }
+
+    header > .wrapper {
+        flex-direction: row;
+    }
+
+    header h3 {
+        flex: 1 1 100px;
+    }
+
+    #nav-left {
+        display: none;
+    }
+
+
+
+    #intro {
+        padding: 30px 0;
+        text-align: center;
+    }
+
+    #intro-text div {
+        width: 100%;
+    }
+
+    #intro-image {
+        margin-top: 50px;
     }
 }
