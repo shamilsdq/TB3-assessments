@@ -161,8 +161,35 @@ header ul li a {
 }
 
 #features .wrapper > div {
-    margin-top: 50px;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
+
+#features article {
+    flex: 0 1 31%;
+    font-size: 18px;
+    padding: 30px 30px;
+    background: #F4F7FA;
+}
+
+#features article span {
+    display: block;
+    color: #8EE5D1;
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+#features article h4 {
+    line-height: 2;
+}
+
+#features article p {
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
 
 
 
@@ -215,5 +242,13 @@ header ul li a {
 
     #features .wrapper > p {
         width: 100%;
+    }
+
+    #features .wrapper > div {
+        flex-direction: column;
+    }
+
+    #features article {
+        margin-bottom: 20px;
     }
 }
