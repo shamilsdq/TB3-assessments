@@ -1,0 +1,124 @@
+* {
+    padding: 0;
+    margin: 0;
+    color: #3C3C3C;
+    line-height: 1.25;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    font: 16px Halvetica, Roboto, sans-serif;
+}
+
+
+
+
+header, section, footer {
+    width: 100%;
+}
+
+h1, h2, h3 {
+    color: #000000;
+}
+
+a {
+    font-weight: 600;
+}
+
+
+
+
+.wrapper {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.link-solid {
+    background: #8EE5D1;
+    border-radius: 50px;
+}
+
+
+
+
+header {
+    padding: 20px 0;
+}
+
+header > .wrapper {
+    align-items: center;
+}
+
+header h3 {
+    font-size: 28px;
+    margin-right: 20px;
+}
+
+header ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+header ul li a {
+    display: block;
+    padding: 10px 20px;
+}
+
+#nav-left {
+    flex: 1 1 200px;
+}
+
+
+
+#intro {
+    padding: 75px 0px;
+}
+
+#intro > .wrapper {
+    align-items: center;
+}
+
+#intro-text {
+    flex: 1;
+    font-size: 20px;
+}
+
+#intro-text h1 {
+    font-size: 2.3em;
+}
+
+#intro-text div {
+    width: 75%;
+    line-height: 1.5;
+    margin: 15px 0 20px;
+}
+
+#intro-text a {
+    padding: 10px 20px;
+}
+
+
+#intro-image {
+    flex: 0 1 50%;
+}
+
+#intro-image > img {
+    width: 100%;
+}
+
+
+
+#contact {
+    background: #F4F7FA;
+}
+
+
+@media screen and (min-width: 641px) {
+    .wrapper {
+        width: 80%;
+    }
+}
